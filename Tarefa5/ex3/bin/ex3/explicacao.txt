@@ -1,0 +1,6 @@
+As classes aninhadas são classes definidas dentro de outras classes. No caso da classe "Inner" ser aninhada na classe "Outer", ela tem acesso irrestrito 
+aos membros da classe externa. Isso significa que a classe "Inner" pode acessar os atributos e métodos da classe "Outer" sem restrições.
+
+Portanto, se existe um atributo chamado "x" na classe "Outer", a classe "Inner" pode acessá-lo normalmente. Ao instanciar um objeto da classe "Inner", 
+não haverá erros de compilação ou execução ao acessar o atributo "x" dentro dessa classe.
+
